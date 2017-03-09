@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SmartFactory
+  host: SmartFactoryPUCPR
+  disk_quota: 1024M
+  services:
+  - SmartFactory-cloudantNoSQLDB
+  - SmartFactory-iotf-service
